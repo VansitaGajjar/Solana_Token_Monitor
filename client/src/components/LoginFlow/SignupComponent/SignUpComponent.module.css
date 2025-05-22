@@ -1,0 +1,91 @@
+.signupBtnTxt {
+  font-weight: 700 !important;
+  line-height: 40px !important;
+  color: var(--small-txt-color) !important;
+}
+
+.createAccountTxt {
+  font-weight: 500 !important;
+  line-height: 25px !important;
+  color: var(--small-txt-color) !important;
+  opacity: 50%;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonBox .signupBtn {
+  margin-top: 1rem;
+  background-color: #1c1b20;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.buttonBox .backBtn {
+  margin-top: 1rem;
+  background-color: #f0f0f0;
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.inputTextFieldBox {
+  margin-top: 10px !important;
+}
+
+.inputFieldLabel {
+  margin-top: 10px !important;
+  font-weight: 600 !important;
+  color: var(--small-txt-color) !important;
+}
+
+.profileMainBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0px;
+}
+
+.profileTxt {
+  font-weight: 600 !important;
+  color: var(--small-txt-color);
+}
+
+.alreadyAccountBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.alreadyAccountBox .dontAccountTxt {
+  color: var(--small-txt-color);
+  opacity: 50%;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.alreadyAccountBox .loginTxt {
+  text-decoration: none;
+  color: var(--small-txt-color);
+  font-weight: 800;
+}
+
+@media (max-width: 960px) {
+  .profileMainBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0px;
+  }
+}

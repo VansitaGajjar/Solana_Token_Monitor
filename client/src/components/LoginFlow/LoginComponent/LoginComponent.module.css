@@ -1,0 +1,68 @@
+.signupBtnTxt {
+  font-weight: 700 !important;
+  line-height: 40px !important;
+  color: var(--small-txt-color) !important;
+}
+
+.createAccountTxt {
+  font-weight: 500 !important;
+  line-height: 25px !important;
+  color: var(--small-txt-color) !important;
+  opacity: 50%;
+  margin-bottom: 20px !important;
+}
+
+.inputTextFieldBox {
+  margin-top: 10px !important;
+}
+
+.inputFieldLabel {
+  margin-top: 10px !important;
+  font-weight: 600 !important;
+  color: var(--small-txt-color) !important;
+}
+
+.buttonBox .signupBtn {
+  margin-top: 1rem;
+  background-color: #1c1b20;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.remeberForgotBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forgotPassowordTxt {
+  color: var(--small-txt-color);
+  opacity: 50%;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.alreadyAccountBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.alreadyAccountBox .dontAccountTxt {
+  color: var(--small-txt-color);
+  opacity: 50%;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.alreadyAccountBox .loginTxt {
+  text-decoration: none;
+  color: var(--small-txt-color);
+  font-weight: 800;
+}

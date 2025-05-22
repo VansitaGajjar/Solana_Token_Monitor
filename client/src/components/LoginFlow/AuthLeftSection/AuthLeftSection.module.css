@@ -1,0 +1,67 @@
+.mainAuthBox {
+  position: relative;
+  padding: 3rem 3rem 0rem 3rem;
+}
+
+.logoMainBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.soltrackerLogoTxt {
+  color: white;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.empoweringTxt {
+  color: white;
+  font-weight: 700;
+  line-height: 44px;
+  margin-top: 80px !important;
+}
+
+.monitorTxt {
+  color: white;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 50px !important;
+}
+
+.pinkBox {
+  background-color: #f55c9d;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50px;
+}
+
+.yellowBox {
+  background-color: #ffbc5a;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+@media (max-width: 960px) {
+  .mainAuthBox {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .empoweringTxt,
+  .monitorTxt,
+  .pinkBox,
+  .yellowBox {
+    display: none;
+  }
+}
